@@ -6,7 +6,7 @@ export default function Main ({ languagesData }) {
             <div className="container">
                 <div className="row">
                     <div className="col-100">
-                        <h1 className="mt-5 mb-4">
+                        <h1 className="my-5">
                             Learn Web development
                         </h1>
                         <Languages languagesData={languagesData} />

@@ -8,7 +8,7 @@ export default function Languages ({ languagesData }) {
     const selectedLanguage = languagesData.find(languageData => languageData.id === selectedLanguageId);
 
     return (
-        <div className="card p-3">
+        <div id="languages">
 
             <LanguagesButtons
             selectedLanguageId={selectedLanguageId}

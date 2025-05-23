@@ -2,7 +2,7 @@ import LanguageButton from "./LanguageButton";
 
 export default function LanguagesButtons ({ buttonsData, selectedLanguageId, setSelectedLanguageId }) {
     return (
-        <div id="languages-buttons" className="mb-3">
+        <div id="languages-buttons" className="mb-4">
             {
                 buttonsData.map(buttonData => {
                     return (
