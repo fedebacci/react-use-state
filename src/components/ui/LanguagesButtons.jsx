@@ -1,16 +1,14 @@
-import { useState } from "react";
 import LanguageButton from "./LanguageButton";
 
 // const 
 
-export default function LanguagesButtons ({ buttonsData }) {
+export default function LanguagesButtons ({ buttonsData, selectedLanguageId, setSelectedLanguageId }) {
     // console.debug('LanguagesButtons buttonsData', buttonsData);
-    
-    const [ selectedLanguageId, setSelectedLanguageId ] = useState(1);
     // console.debug('LanguagesButtons selectedLanguageId', selectedLanguageId);
+    // console.debug('LanguagesButtons setSelectedLanguageId', setSelectedLanguageId);
 
     return (
-        <div id="languages-buttons" className="card p-3">
+        <div id="languages-buttons" className="mb-3">
             {
                 buttonsData.map(buttonData => {
                     return (

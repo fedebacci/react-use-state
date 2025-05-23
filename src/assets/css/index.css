@@ -16,7 +16,10 @@
 
 
 
-#languages-buttons {
-    flex-direction: row;
-    gap: .5rem;
+#languages-buttons button + button {
+    margin-left: .5rem;
 }
+
+/* #language-description {
+    border: 1px solid red;
+} */
