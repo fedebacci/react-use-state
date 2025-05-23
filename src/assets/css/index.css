@@ -4,22 +4,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-#languages-buttons button + button {
-    margin-left: .5rem;
-}
-
-/* #language-description {
-    border: 1px solid red;
-} */

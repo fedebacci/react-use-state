@@ -1,12 +1,6 @@
 import LanguageButton from "./LanguageButton";
 
-// const 
-
 export default function LanguagesButtons ({ buttonsData, selectedLanguageId, setSelectedLanguageId }) {
-    // console.debug('LanguagesButtons buttonsData', buttonsData);
-    // console.debug('LanguagesButtons selectedLanguageId', selectedLanguageId);
-    // console.debug('LanguagesButtons setSelectedLanguageId', setSelectedLanguageId);
-
     return (
         <div id="languages-buttons" className="mb-3">
             {

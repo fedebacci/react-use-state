@@ -1,8 +1,11 @@
-export default function LanguageDescriptionBox ({ description }) {
-    // console.debug('LaLanguageDescriptionBoxnguageButton description', description);
+import LanguageDescriptionBoxTitle from "./LanguageDescriptionBoxTitle";
+import LanguageDescriptionBoxText from "./LanguageDescriptionBoxText";
+
+export default function LanguageDescriptionBox ({ title, description }) {
     return (
         <div id="language-description">
-            {description}
+            <LanguageDescriptionBoxTitle title={title} />
+            <LanguageDescriptionBoxText text={description} />
         </div>
     );
 }
