@@ -9,7 +9,9 @@ export default function LanguagesButtons ({ buttonsData, selectedLanguageId, set
                         <LanguageButton 
                         title={buttonData.title} 
                         isSelected={buttonData.id === selectedLanguageId} 
-                        handleClick={() => setSelectedLanguageId(buttonData.id)} 
+                        handleClick={() => {
+                            buttonData.id === selectedLanguageId ? setSelectedLanguageId(0) : setSelectedLanguageId(buttonData.id);
+                        }} 
                         key={buttonData.id} />
                     );
                 })
